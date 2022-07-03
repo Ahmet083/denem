@@ -1,0 +1,273 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main {
+    width: 100%;
+    background:linear-gradient(to top, rgba(138,100,70, 0.5)30%, rgba(78,15,184,0.7)80%), url(doga.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    
+}
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+    background: #212121;
+    opacity: 0.7;
+   
+
+}
+.icon{
+    width: 200px;
+    height: 72px;
+    float:left;
+
+}
+.logo{
+    color: #f47e00;
+    width: 100%;
+    padding-top: 20px;
+   padding-left: 30px;
+    font-size:75;
+    font-family:Arial ;
+    margin-top: 4px;
+}
+.menu{
+    width: 400px;
+    
+    float: left;
+    height: 82px;
+    
+}
+ul{
+  float:left;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+ 
+}
+ul li{
+    list-style:  none;
+    margin-left: 52px;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1s ease-in-out ;
+
+}
+ul li a:hover{
+    color: #f47e00;
+    
+}
+.arama{
+    width:350px;
+    float: left;
+    margin-left:350px ;
+    margin-top: 30px;
+
+
+}
+.ara {
+    font-family: Arial;
+    width:195px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #f47e00;
+    margin-top:5x;
+    color: white;
+    
+    font-size: 14px;
+    
+    float: left;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+.btn {
+    width:100px;
+    height: 43px;
+    background:#f47e00;
+    margin-top: 5px;
+    float: right;
+    font-size: 14px;
+    padding:10px;
+    margin-right: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+    transition: 2s ease;
+    cursor: pointer;
+    
+}
+.btn:hover:{
+    color: white;
+}
+.btn:focus{
+    outline: none;
+}
+
+.icerik{
+   width: 1200px;
+   height:auto;
+   margin:auto;
+   color: white;
+   position: relative;
+   
+}
+span{
+    color:#f47e00;
+    font-size: 60px;
+
+}
+.icerik h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 17px;
+    margin-top: 18px;
+    letter-spacing: 2px;
+}
+.icerik .par {
+    padding-left: 27px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.icerik .katilin{
+    width: 160px;
+    height:40px;
+    padding-top: 5px;
+    margin: auto;
+    background: #f47e00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border:none;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    border-radius:20px;
+    color:black;
+    cursor: pointer;
+    transition: 4s ease;
+
+}
+.icerik .katilin a{
+    text-decoration: none;
+    color:#000;
+    transition: 3s ease;
+}
+.form {
+    width: 300px;
+    height: 380px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(138,100,70, 0.5)40%, rgba(78,15,184, 0.7)70%);
+    top: 60px;
+    left: 730px;
+    transform: translate(32%, -5%);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.form h2{
+    color:#f47e00;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    font-size: 25px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+    padding:8px;
+    margin-left: 38px;
+    
+
+}
+.form input{
+    width:240px;
+    height:37px;
+    background: transparent;
+    border-bottom: 1px solid #f47e00;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: Arial;
+    margin-left: 27px;
+    border-radius: 10px;
+
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.giris{
+    width:100px;
+    height: 37px;
+    background:#f47e00;
+    border: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 2s ease;
+
+
+}
+.giris:hover{
+    background: #fff;
+    color: #f47e00;
+}
+
+.giris a{
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+}
+.form .link {
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 15px;
+    text-align: center;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.form  a{
+    text-decoration: none;
+    color: #1d0be6;
+    text-align: center;
+    margin-left: 100px;
+    font-size: larger;
+ 
+}
+.icerik .ahmet{
+  height: 53px;
+  width: 300px;
+background-color: white;
+font-size: 25px;
+list-style: none;
+
+}
